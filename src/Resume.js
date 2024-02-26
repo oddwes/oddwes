@@ -19,6 +19,9 @@ class Resume extends React.Component {
 						<div>
 							<b>E-mail</b> oddwes3.0@gmail.com
 						</div>
+						<div>
+							<b>Telegram</b> @oddwes
+						</div>
 					</Card.Header>
 					<Card.Body text="black">
 						<Container>

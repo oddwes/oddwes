@@ -50,7 +50,7 @@ class Resume extends React.Component {
 								</Col>
 								<Col>
 									<p>
-										<b>System Integrations Developer</b><br />
+										<b>System Integrations Developer & Team Lead</b><br />
 										<i>Diff Agency, Montreal, QC</i>
 									</p>
 									<p className="pl-4">

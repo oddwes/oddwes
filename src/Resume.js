@@ -33,7 +33,7 @@ class Resume extends React.Component {
 								</Col>
 								<Col>
 									<p>
-										<b>Senior Ruby Developer</b><br />
+										<b>Senior Fullstack Developer</b><br />
 										<i>Jane.app, Vancouver, BC</i>
 									</p>
 									<p className="pl-4">

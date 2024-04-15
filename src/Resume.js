@@ -14,13 +14,13 @@ class Resume extends React.Component {
 						<h1>oddwes</h1>
 						<h3>An enthusiastic developer looking for his next project to obsess over</h3>
 						<div>
-							<b>Phone</b> (778) 682-4384
+							<b>Telegram</b> @oddwes
+						</div>
+						<div>
+							<b>Discord</b> @oddwes
 						</div>
 						<div>
 							<b>E-mail</b> oddwes3.0@gmail.com
-						</div>
-						<div>
-							<b>Telegram</b> @oddwes
 						</div>
 					</Card.Header>
 					<Card.Body text="black">

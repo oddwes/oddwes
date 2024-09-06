@@ -1,34 +1,25 @@
-import "./App.css";
-import React, { useRef }  from 'react';
-import Resume from "./Resume";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  const componentRef = useRef()
-  const printDocument = () => {
-    var doc = new jsPDF("p", "mm", "a4");
-    var width = doc.internal.pageSize.getWidth();
-    var height = doc.internal.pageSize.getHeight();
-
-    const input = document.getElementById('divToPrint');
-    html2canvas(input)
-      .then((canvas) => {
-        const imgData = canvas.toDataURL('image/png');
-        const pdf = new jsPDF();
-        pdf.addImage(imgData, 'JPEG', 0, 0, width, height);
-        pdf.save("download.pdf");
-      })
-    ;
-  }
-
   return (
-    <>
-      <button className="rounded-button" onClick={printDocument}>Print to PDF</button>
-      <br />
-      <Resume ref={componentRef}/>
-    </>
-  )
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;

@@ -16,7 +16,7 @@ const Greeting = () => {
             marginLeft: 'auto',
             marginRight: 'auto',
             width: '20%',
-            height: '20%'
+            height: '20%',
           }}
         />
       </Box>

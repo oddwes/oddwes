@@ -33,10 +33,9 @@ const Contact = () => {
 
   return (
     <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'row'
-      }}
+      display='flex'
+      direciton='row'
+      justifyContent='flex-end'
     >
       {socialLink(telegramLink, <Telegram />)}
       {socialLink(githubLink, <GitHubIcon />)}

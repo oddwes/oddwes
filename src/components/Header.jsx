@@ -4,7 +4,7 @@ import Contact from './Contact'
 
 const Header = () => {
   return (
-    <div className='dark-background sticky-header'>
+    <div className='header-background sticky-header'>
       <Grid container>
         <Grid size={2}>
           <Box

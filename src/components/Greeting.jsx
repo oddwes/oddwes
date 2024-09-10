@@ -4,10 +4,10 @@ import avatar from '../assets/images/avatar.png'
 const Greeting = () => {
   return (
     <div className='dark-background centered'>
-      <Typography variant='h3'>
+      <Typography variant='h3' sx={{padding: 3}}>
         hi 👋 I'm oddwes!
       </Typography>
-      <Box sx={{padding: 1}}>
+      <Box>
         <Avatar
           alt='avatar'
           src={avatar}

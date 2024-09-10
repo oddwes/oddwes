@@ -22,8 +22,13 @@
   }
 }
 
-.dark-background {
+.header-background {
   background-color: #282c34;
+  color: white;
+}
+
+.dark-background {
+  background-color: #1A1B1F;
   color: white;
 }
 
@@ -35,4 +40,21 @@
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+.swiper {
+  width: 500px;
+  height: 500px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500;
+  height: 500px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }

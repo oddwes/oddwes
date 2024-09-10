@@ -17,16 +17,14 @@ const Personal = () => {
         <img
           alt={`${image}`}
           src={image}
-          width='40%'
-          height='40%'
         />
       </SwiperSlide>
     )
   }
 
   return (
-    <div className="dark-background centered">
-      <Typography variant='h4'>
+    <div className="dark-background">
+      <Typography variant='h4' className='centered'  sx={{padding: 3}}>
         Some rides I'm proud of
       </Typography>
       <Swiper

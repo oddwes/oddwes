@@ -3,7 +3,7 @@ import avatar from '../assets/images/avatar.png'
 
 const Greeting = () => {
   return (
-    <>
+    <div className='dark-background centered'>
       <Typography variant='h3'>
         hi 👋 I'm oddwes!
       </Typography>
@@ -20,7 +20,7 @@ const Greeting = () => {
           }}
         />
       </Box>
-    </>
+    </div>
   )
 }
 

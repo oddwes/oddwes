@@ -24,8 +24,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "oddwes",
-      "oddwes/jest"
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {

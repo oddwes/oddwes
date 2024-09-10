@@ -13,7 +13,7 @@ const Personal = () => {
 
   const slide = (image) => {
     return (
-      <SwiperSlide>
+      <SwiperSlide key={image}>
         <img
           alt={`${image}`}
           src={image}
@@ -25,7 +25,7 @@ const Personal = () => {
   }
 
   return (
-    <>
+    <div className="dark-background centered">
       <Typography variant='h4'>
         Some rides I'm proud of
       </Typography>
@@ -39,7 +39,7 @@ const Personal = () => {
           return slide(image)
         })}
       </Swiper>
-    </>
+    </div>
   )
 }
 

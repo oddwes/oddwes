@@ -6,7 +6,7 @@ import Personal from './components/Personal';
 
 function App() {
   return (
-    <Box className='App'>
+    <Box>
       <Header />
       <Greeting />
       <Personal />
